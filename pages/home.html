@@ -44,7 +44,10 @@
         </li>
        </ol>
 
+       <br><br>
+
        <h3>What you gotta know before ya go</h3>
+
        <table>
         <tr>
             <th>Restaurant</th>
@@ -109,11 +112,40 @@
         </tr>
        </table>
 
+       <br><br>
+
        <h3>Wanna nominate some gnarly nosh?</h3>
        <h4>Submit your restaurant recommendations below!</h4>
+
        <form>
         <label for = "name">Restaurant Name: </label>
         <input type = "text" id = "name" name = "name" required>
+
+        <br><br>
+
+        <label for = "location">Restaurant Location: </label>
+            <select id = "location" name = "location">
+                <option value="ahwatukee">Ahwatukee</option>
+                <option value="anthem">Anthem</option>
+                <option value="apache-junction">Apache Junction</option>
+                <option value="avondale">Avondale</option>
+                <option value="buckeye">Buckeye</option>
+                <option value="chandler">Chandler</option>
+                <option value="carefree">Carefree</option>
+                <option value="cave-creek">Cave Creek</option>
+                <option value="gilbert">Gilbert</option>
+                <option value="glendale">Glendale</option>
+                <option value="goodyear">Goodyear</option>
+                <option value="mesa">Mesa</option>
+                <option value="peoria">Peoria</option>
+                <option value="phoenix" selected>Phoenix</option>
+                <option value="sun-city">Sun City</option>
+                <option value="surprise">Surprise</option>
+                <option value="tempe">Tempe</option>
+                <option value="tolleson">Tolleson</option>
+            </select>
+        
+        <br><br>
 
         <p>Types of food served (select any that apply): </p>
 
@@ -167,10 +199,35 @@
         <label for = "other"> Other: </label>
         <input type = "text" id = "other-description" name = "other-description">
 
-        
+        <br><br>
 
-        
+        <p>Be straight - what's this gonna cost me?</p>
 
+        <input type = "radio" id = "free" name = "price" value = "0">
+        <label for = "free">Free*</label>
+
+        <input type = "radio" id = "cheap" name = "price" value = "1">
+        <label for = "cheap">$</label>
+
+        <input type = "radio" id = "moderate" name = "price" value = "2">
+        <label for = "moderate">$$</label>
+
+        <input type = "radio" id = "expensive" name = "price" value = "3">
+        <label for = "expensive">$$$</label>
+
+        <input type = "radio" id = "exorbitant" name = "price" value = "4">
+        <label for = "exorbitant">$$$$</label>
+
+        <input type = "radio" id = "yikes" name = "price" value = "5">
+        <label for = "yikes">You're better off not knowing.</label>
+
+        <p>*Kids, remember what your economics professor taught you: there's no such thing as a free lunch!</p>
+
+        <br><br>
+
+        <label for = "argument">Rationale:</label><br>
+        <textarea id = "argument" name = "argument" rows = "5" cols = "50">Why should this restaurant make the cut? Plead your case.</textarea>
+        
        </form>
     </body>
 </html>
