@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nominate a New Favorite!</title>
+        <link rel = "stylesheet" type = "text/css" href = "../style/my-style.css">
+    </head>
+    <body>
+        <div class = "suggestion-form">
+            <h3>Wanna nominate some gnarly nosh?</h3>
+            <h4>Submit your restaurant recommendations below!</h4>
+        
+            <form>
+                <label for = "name">Restaurant Name: </label>
+                <input type = "text" id = "name" name = "name" required>
+        
+                <br><br>
+        
+                <label for = "location">Restaurant Location: </label>
+                    <select id = "location" name = "location">
+                        <option value="ahwatukee">Ahwatukee</option>
+                        <option value="anthem">Anthem</option>
+                        <option value="apache-junction">Apache Junction</option>
+                        <option value="avondale">Avondale</option>
+                        <option value="buckeye">Buckeye</option>
+                        <option value="chandler">Chandler</option>
+                        <option value="carefree">Carefree</option>
+                        <option value="cave-creek">Cave Creek</option>
+                        <option value="gilbert">Gilbert</option>
+                        <option value="glendale">Glendale</option>
+                        <option value="goodyear">Goodyear</option>
+                        <option value="mesa">Mesa</option>
+                        <option value="peoria">Peoria</option>
+                        <option value="phoenix" selected>Phoenix</option>
+                        <option value="sun-city">Sun City</option>
+                        <option value="surprise">Surprise</option>
+                        <option value="tempe">Tempe</option>
+                        <option value="tolleson">Tolleson</option>
+                    </select>
+                
+                <br><br>
+        
+                <p>Types of food served (select any that apply): </p>
+        
+                <input type = "checkbox" id = "grill" name = "grill">
+                <label for = "grill"> Grill Fare</label>
+        
+                <input type = "checkbox" id = "sandwiches" name = "sandwiches">
+                <label for = "sandwiches"> Sandwiches</label>
+        
+                <input type = "checkbox" id = "pizza" name = "pizza">
+                <label for = "pizza"> Pizza</label>
+        
+                <input type = "checkbox" id = "pasta" name = "pasta">
+                <label for = "pasta"> Pasta</label>
+        
+                <input type = "checkbox" id = "mexican" name = "mexican">
+                <label for = "mexican"> Mexican/Latin American</label>
+        
+                <br>
+        
+                <input type = "checkbox" id = "asian" name = "asian">
+                <label for = "asian"> East Asian</label>
+        
+                <input type = "checkbox" id = "indian" name = "indian">
+                <label for = "indian"> Indian</label>
+        
+                <input type = "checkbox" id = "mediterranean" name = "mediterranean">
+                <label for = "mediterranean"> Greek/Mediterranean</label>
+        
+                <input type = "checkbox" id = "euro" name = "euro">
+                <label for = "euro"> European</label>
+        
+                <input type = "checkbox" id = "fusion" name = "fusion">
+                <label for = "fusion"> Fusion/Modern</label>
+        
+                <br>
+        
+                <input type = "checkbox" id = "dessert" name = "dessert">
+                <label for = "dessert"> Desserts</label>
+        
+                <input type = "checkbox" id = "beer" name = "beer">
+                <label for = "beer"> Craft Beers</label>
+        
+                <input type = "checkbox" id = "wine" name = "wine">
+                <label for = "wine"> Wine Selection</label>
+        
+                <input type = "checkbox" id = "cocktail" name = "cocktail">
+                <label for = "cocktail"> Specialty Cocktails</label>
+        
+                <input type = "checkbox" id = "other" name = "other">
+                <label for = "other"> Other: </label>
+                <input type = "text" id = "other-description" name = "other-description">
+        
+                <br><br>
+        
+                <p>Be straight - what's this gonna cost me?</p>
+        
+                <input type = "radio" id = "free" name = "price" value = "0">
+                <label for = "free">Free*</label>
+        
+                <input type = "radio" id = "cheap" name = "price" value = "1">
+                <label for = "cheap">$</label>
+        
+                <input type = "radio" id = "moderate" name = "price" value = "2">
+                <label for = "moderate">$$</label>
+        
+                <input type = "radio" id = "expensive" name = "price" value = "3">
+                <label for = "expensive">$$$</label>
+        
+                <input type = "radio" id = "exorbitant" name = "price" value = "4">
+                <label for = "exorbitant">$$$$</label>
+        
+                <input type = "radio" id = "yikes" name = "price" value = "5">
+                <label for = "yikes">You're better off not knowing.</label>
+        
+                <p>*Kids, remember what your economics professor taught you: there's no such thing as a free lunch!</p>
+        
+                <br><br>
+        
+                <label for = "argument">Rationale:</label><br>
+                <textarea id = "argument" name = "argument" rows = "5" cols = "50">Why should this restaurant make the cut? Plead your case.</textarea>
+                
+                <br><br>
+        
+                <input type = "submit" value = "Let's Eat!">
+        
+            </form>
+        </div>
+    </body>
+</html>
