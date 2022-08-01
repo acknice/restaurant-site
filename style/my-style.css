@@ -7,7 +7,7 @@ nav {
     top: 0px;
     left: 0px;
     overflow: visible;
-    border: 5px groove #ff5000;
+    border: 5px groove #fa5234;
 }
 
 .navigation {
@@ -35,28 +35,67 @@ nav {
 }
 
 .nav-item a:hover {
-    background-color: #ff5000;
-    border: 3px groove #003d50;
+    background-color: #fa5234;
     color: #ccc;
     font-weight: bold;
 }
 
-body {
-    background-color: #ccc;
-    color:#003040;
+.search {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    height: 10px;
 }
 
-h1 {
-    font-family: 'garamond';
-    font-size: 36pt;
+.cart {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    height: 20px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ccc;
 }
 
 .welcome {
-    position: absolute;
-    top: 100px;
-    width: 100%;
-    height: 100%;
+    position: absolute; 
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    margin-top: 5%;
     text-align: center;
+    background-color: #003d50;
+    border-radius: 25px;
+    border: 10px groove #fa5234;
+    color: #ddd;
+    font-family: 'garamond';
+}
+
+.welcome h1 {
+    padding: 20px 0px;
+    font-size: 36pt;
+}
+
+.welcome h2 {
+    font-size: 20pt;
+}
+
+.home-blurb {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 60%;
+    margin-top: 10%;
+    padding: 20px;
+    font-family: "verdana";
+    font-size: 12pt;
+    text-align: center;
+    background-color: #003d50;
+    border-radius: 25px;
+    border: 5px groove #fa5234;
+    color: #ddd;
 }
 
 
