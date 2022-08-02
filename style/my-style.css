@@ -8,6 +8,7 @@ nav {
     left: 0px;
     overflow: visible;
     border: 5px groove #fa5234;
+    z-index: 10
 }
 
 .navigation {
@@ -71,6 +72,7 @@ body {
     border: 10px groove #fa5234;
     color: #ddd;
     font-family: 'garamond';
+    z-index: 5;
 }
 
 .welcome h1 {
@@ -97,6 +99,21 @@ body {
     border: 5px groove #fa5234;
     color: #ddd;
 }
+
+.home-blurb h2 {
+    font-family: "verdana";
+    font-size: 20pt;
+}
+
+.home-blurb a {
+    text-decoration: underline;
+    color:#ddd
+}
+
+.home-blurb a:active {
+    color: #fa5234
+}
+
 
 .list-heading {
     position: absolute; 
@@ -245,4 +262,9 @@ body {
 
 .table-row td a:active {
     color: #fa5234;
+}
+
+.home-kitchen-image {
+    z-index: 0;
+    opacity: 65%;
 }
