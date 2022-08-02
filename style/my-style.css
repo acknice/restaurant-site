@@ -98,5 +98,104 @@ body {
     color: #ddd;
 }
 
+.list-heading {
+    position: absolute; 
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+    background-color: #003d50;
+    border-radius: 25px;
+    border: 8px groove #fa5234;
+    color: #ddd;
+    font-family: 'garamond';
+}
+
+.list-heading h1 {
+    padding: 10px 0px;
+    font-size: 24pt;
+}
+
+.list-heading h2 {
+    font-size: 18pt;
+    padding-bottom: 10px;
+}
+
+.restaurant-list {
+    position: absolute; 
+    top: 30%;
+    left: 5%;
+    width: 90%;
+    background-color: #003d50;
+    border-radius: 25px;
+    border: 8px groove #fa5234;
+    color: #ddd;
+}
+
+.restaurant-list ol{
+    list-style:none;
+    counter-reset:li;
+}
+
+.restaurant-list ol li{
+    position: relative;
+    left: 5%;
+    }
+
+.restaurant-list ol li:before {
+    content: counter(li);
+    counter-increment:li;
+    top: 40%;
+    margin-left:-30px;
+    border-radius:3px; 
+    background:#fa5234; 
+    color:#003d50;
+    position:absolute;
+    width:30px; 
+    height:30px;
+    padding: 10px 5px 0px 5px;  
+    text-align: center;
+    line-height: -50%;
+    font-family: "helvetica"; 
+    font-size: 14pt; 
+    font-weight: bold;
+}
+
+.list-item {
+    display: inline-block;
+    height: 300px;
+    width: 85%;
+}
 
 
+.list-item h3 {
+    height: 5%;
+    width: 100%;
+    font-family: 'garamond';
+    font-size: 18pt;
+    margin: 5px;
+}
+
+.list-item img {
+    display: inline-block;
+    top: 20%;
+    width: 25%;
+    height: 70%;
+    margin: 10px;
+    border: 5px groove #ccc
+}
+
+.list-item p {
+    float:right;
+    width: 65%;
+    height: auto;
+    margin: 40px 50px 10px 10px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 25px;
+    border: 5px groove #ccc;
+    background-color: #ccc;
+    color: #003d50;
+    font-family: 'verdana';
+    font-size: 20px;
+
+}
