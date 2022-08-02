@@ -268,3 +268,19 @@ body {
     z-index: 0;
     opacity: 65%;
 }
+
+footer {
+    position:absolute;
+    left:0px;
+    bottom: 0px;
+    height: 5%;
+    width: 100%;
+    margin: 5% 0px 0px 0px;
+    border-top: 5pt groove #fa5234;
+    border-bottom: 0pt;
+    background-color: #003d50;
+    color: #bbb;
+    font-family: 'Courier New';
+    font-weight: lighter;
+    text-align: center;
+}
