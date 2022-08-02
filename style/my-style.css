@@ -1,4 +1,5 @@
 nav {
+    position: relative;
     box-sizing: border-box;
     background-color: #003d50;
     height: 75px;
@@ -57,15 +58,15 @@ nav {
 }
 
 body {
+    position:relative;
     background-color: #ccc;
 }
 
 .welcome {
-    position: absolute; 
-    top: 10%;
-    left: 30%;
+    position: relative; 
+    top: 100px;
     width: 40%;
-    margin-top: 5%;
+    margin: 15px auto;
     text-align: center;
     background-color: #003d50;
     border-radius: 25px;
@@ -85,11 +86,11 @@ body {
 }
 
 .home-blurb {
-    position: absolute;
-    top: 40%;
-    left: 20%;
+    position: relative;
+    top: 100px;
     width: 60%;
-    margin-top: 10%;
+    margin: 0 auto;
+    margin-bottom: 25%;
     padding: 20px;
     font-family: "verdana";
     font-size: 12pt;
@@ -116,10 +117,10 @@ body {
 
 
 .list-heading {
-    position: absolute; 
+    position: relative; 
     top: 100px;
-    left: 30%;
     width: 40%;
+    margin: 0 auto;
     text-align: center;
     background-color: #003d50;
     border-radius: 25px;
@@ -129,21 +130,23 @@ body {
 }
 
 .list-heading h1 {
+    position: relative; 
     padding: 10px 0px;
     font-size: 24pt;
 }
 
 .list-heading h2 {
+    position: relative; 
     font-size: 18pt;
     padding-bottom: 10px;
 }
 
 .restaurant-list {
-    position: absolute; 
-    top: 300px;
-    left: 3%;
+    position: relative; 
+    top: 100px;
     width: 90%;
     height: 1900px;
+    margin: 20px auto;
     padding: 25px;
     background-color: #003d50;
     border-radius: 25px;
@@ -184,6 +187,7 @@ body {
 }
 
 .list-item {
+    position: relative; 
     display: grid;
     grid-template-rows: 100px 200px;
     grid-template-columns: 35% 65%;
@@ -192,6 +196,7 @@ body {
 
 
 .list-entry {
+    position: relative; 
     grid-column: 1 / 3;
     font-family: 'garamond';
     font-size: 20pt;
@@ -199,11 +204,13 @@ body {
 }
 
 .list-image {
+    position: relative; 
     border: 5px groove #ccc;
 }
 
 
 .list-text {
+    position: relative; 
     height: 100%;
     padding: 10px;
     border-radius: 25px;
@@ -216,8 +223,8 @@ body {
 }
 
 .table-heading {
-    position: absolute; 
-    top: 2350px;
+    position: relative; 
+    top: 100px;
     left: 30%;
     width: 40%;
     padding: 10px;
@@ -231,10 +238,11 @@ body {
 }
 
 .info-table {
-    position: absolute;
-    top: 2450px;
+    position: relative;
+    top: 100px;
     left: 5%;
     width: 90%;
+    margin-bottom: 200px;
     background-color: #003d50;
     border-radius: 25px;
     border: 8px groove #fa5234;
@@ -269,13 +277,28 @@ body {
     opacity: 65%;
 }
 
+.suggestion-form {
+    position: relative;
+    top: 100px;
+    left: 75px;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 150px;
+    background-color: #003d50;
+    border-radius: 25px;
+    border: 8px groove #fa5234;
+    color: #ddd;  
+}
+
+
 footer {
-    position:absolute;
-    left:0px;
-    bottom: 0px;
-    height: 5%;
+    position: relative;
+    left: 0;
+    top: 100%;
+    height: 20px;
     width: 100%;
-    margin: 5% 0px 0px 0px;
+    margin-bottom: 0;
     border-top: 5pt groove #fa5234;
     border-bottom: 0pt;
     background-color: #003d50;
