@@ -1,0 +1,17 @@
+
+.bg-body {
+    background-color: #bbb;
+}
+
+.bg-cust-orange {
+    background-color: #df4f27;
+}
+
+.cust-border {
+    border-style: groove;
+    border-width: 5px;
+}
+
+.rounded {
+    border-radius: 25%;
+}
