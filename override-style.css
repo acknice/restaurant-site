@@ -1,17 +1,60 @@
 
-.bg-body {
-    background-color: #bbb;
+.bg-cust-gray {
+    background-color: #777;
+}
+
+.bg-cust-ltgray {
+    background-color: #ddd;
 }
 
 .bg-cust-orange {
     background-color: #df4f27;
 }
 
-.cust-border {
-    border-style: groove;
-    border-width: 5px;
+.bg-cust-blue {
+    background-color: #086d98;
 }
 
-.rounded {
-    border-radius: 25%;
+.cust-border-inverse {
+    border: 6px groove #df4f27;
+    border-radius: 25px;
+}
+
+.cust-border {
+    border: 8px groove #086d98;
+    border-radius: 25px;
+}
+
+.cust-border-image {
+    border: 10px groove #ccc;
+}
+
+.cust-border-nav {
+    border-bottom: 10px groove #086d98;
+}
+
+.nav-item:hover {
+    background-color: #df4f27;
+    border-radius: 50%;
+}
+
+.nav-item:active {
+    background-color: #086d98;
+    border-radius: 50%;
+}
+
+a {
+    color: #df4f27;
+}
+
+a:active {
+    color: #086d98;
+}
+
+.bg-image {
+    background-image: url("/assets/pictures/chez-nicely.jpg");
+}
+
+option:hover {
+    background-color: #df4f27;  
 }
