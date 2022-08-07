@@ -58,3 +58,7 @@ a:active {
 option:hover {
     background-color: #df4f27;  
 }
+
+.text-input{
+    padding-left: 10px;
+}
